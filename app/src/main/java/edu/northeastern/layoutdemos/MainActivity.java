@@ -50,7 +50,7 @@ public class MainActivity extends AppCompatActivity {
 
         Button linearLayoutButton = findViewById(R.id.tableLayoutButton);
         linearLayoutButton.setOnClickListener(view -> {
-            Intent intent = new Intent(MainActivity.this, RelativeLayout.class);
+            Intent intent = new Intent(MainActivity.this, TableLayout.class);
             startActivity(intent);
         });
     }

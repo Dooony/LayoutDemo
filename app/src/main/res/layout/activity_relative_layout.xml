@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:paddingLeft="16dp"
-    android:paddingRight="16dp">
+    android:paddingRight="0dp">
 
     <TextView
         android:id="@+id/topLabel"
@@ -30,5 +30,21 @@
         android:layout_below="@id/topLabel"
         android:layout_alignParentRight="true"
         android:text="B" />
+
+    <Button
+        android:id="@id/C"
+        android:layout_width="96dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/B"
+        android:layout_alignParentRight="true"
+        android:text="C" />
+
+    <Button
+        android:id="@id/D"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:text="D" />
 
 </RelativeLayout>

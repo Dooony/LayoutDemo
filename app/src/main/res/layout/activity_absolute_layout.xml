@@ -72,4 +72,14 @@
         android:contentDescription="@string/star"
         app:srcCompat="@android:drawable/btn_star_big_on"
         tools:ignore="ImageContrastCheck" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="84dp"
+        android:layout_height="86dp"
+        android:layout_x="38dp"
+        android:layout_y="334dp"
+        android:contentDescription="@string/star"
+        app:srcCompat="@android:drawable/btn_star_big_on"
+        tools:ignore="ImageContrastCheck" />
 </AbsoluteLayout>
